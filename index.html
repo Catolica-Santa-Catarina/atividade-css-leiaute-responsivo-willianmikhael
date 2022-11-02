@@ -1,40 +1,77 @@
 <!-- Seu HTML neste arquivo -->
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <title>Menu proteico</title>
 </head>
+
 <body>
+    <Header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">peixe</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">frango</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">filé</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </Header>
 
-<H1>Menu Proteico</H1>
+    <H1>Menu Proteico</H1>
 
-<div class="row">
-    <div>
-    <section class="col-lg-4 col-md-6 col-sm-12 pad">
-    <div class="box"><h3>Peixe</h3></div>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In, sit quisquam! Facere recusandae repellat obcaecati iusto minus, porro dolores corrupti atque neque eos beatae libero odio earum quidem, officia quod?</p>
-    </section>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="estilo">
+                    <h3 id="peixe">Peixe</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In, sit quisquam! Facere recusandae
+                        repellat obcaecati iusto minus, porro dolores corrupti atque neque eos beatae libero odio earum
+                        quidem, officia quod?</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="estilo">
+                    <h3 id="frango">Frango</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In, sit quisquam! Facere recusandae
+                        repellat obcaecati iusto minus, porro dolores corrupti atque neque eos beatae libero odio earum
+                        quidem, officia quod?</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="estilo">
+                    <H3 id="filé">Filé</H3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In, sit quisquam! Facere recusandae
+                        repellat obcaecati iusto minus, porro dolores corrupti atque neque eos beatae libero odio earum
+                        quidem, officia quod?</p>
+                </div>
+            </div>
+
+        </div>
     </div>
 
-       <div>
-       <section class="col-lg-4 col-md-6 col-sm-12 pad">
-       <div class="box"><h3>Frango</h3></div>
-       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In, sit quisquam! Facere recusandae repellat obcaecati iusto minus, porro dolores corrupti atque neque eos beatae libero odio earum quidem, officia quod?</p>
-       </section>
-       </div>
-
-       <div>
-       <section class="col-lg-4 col-md-12 col-sm-12 pad">
-       <div class="box"><H3>Filé</H3></div>
-       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In, sit quisquam! Facere recusandae repellat obcaecati iusto minus, porro dolores corrupti atque neque eos beatae libero odio earum quidem, officia quod?</p>
-       </section>
-       </div>
-
-</div>
-    
 </body>
+
 </html>
